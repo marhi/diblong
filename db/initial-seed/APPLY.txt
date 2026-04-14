@@ -1,0 +1,14 @@
+Initial database seed (data only)
+
+Apply after migrations
+  1. From repo root: cd apps/api && npx prisma migrate deploy
+  2. Load rows (use your DATABASE_URL; omit ?schema=... if psql complains):
+       psql "postgresql://USER:PASS@HOST:PORT/DBNAME" -f db/initial-seed/seed-data.sql
+
+Regenerate from the current local database (matches apps/api/.env defaults: localhost:11433, user diblong, db diblong)
+  PGPASSWORD=diblong pg_dump -h localhost -p 11433 -U diblong -d diblong \
+    --no-owner --no-acl --data-only --inserts --column-inserts \
+    -f db/initial-seed/seed-data.sql
+
+  Then delete the "_prisma_migrations" section from seed-data.sql if pg_dump included it,
+  so migrate deploy remains the single source of migration history.

@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-ink-950 text-zinc-100 font-sans antialiased;
+  background-image:
+    radial-gradient(1200px 600px at 10% -10%, rgba(212, 181, 122, 0.12), transparent),
+    radial-gradient(900px 500px at 90% 0%, rgba(90, 70, 140, 0.12), transparent);
+  min-height: 100vh;
+}
+
+a {
+  @apply transition-colors duration-200 ease-lux;
+}
+
+.dib-container {
+  @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+
+.dib-card {
+  @apply rounded-2xl border border-white/5 bg-ink-900/70 shadow-card backdrop-blur;
+}
+
+.dib-btn {
+  @apply inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-medium tracking-wide text-ink-950 transition-transform duration-200 ease-lux;
+  background: linear-gradient(120deg, #f2e6c7, #d4b57a);
+}
+.dib-btn:hover {
+  transform: translateY(-1px);
+}
+.dib-btn:active {
+  transform: translateY(0);
+}
+
+.dib-btn-ghost {
+  @apply inline-flex items-center justify-center rounded-full border border-white/10 px-5 py-2.5 text-sm font-medium text-zinc-200 hover:border-gold-500/40 hover:text-gold-300;
+}

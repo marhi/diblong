@@ -1,0 +1,16 @@
+{
+  "name": "diblong-shop",
+  "private": true,
+  "workspaces": [
+    "apps/api",
+    "apps/web"
+  ],
+  "scripts": {
+    "db:up": "docker compose up -d postgres",
+    "db:down": "docker compose down",
+    "api:dev": "npm run start:dev -w api",
+    "web:dev": "npm run start -w web",
+    "prisma:migrate": "npm run prisma:migrate -w api",
+    "prisma:seed": "npm run prisma:seed -w api"
+  }
+}

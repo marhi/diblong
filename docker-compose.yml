@@ -1,0 +1,29 @@
+services:
+  api:
+    build:
+      context: ./apps/api
+    ports:
+      - '3000:3000'
+    environment:
+      DATABASE_URL: postgresql://diblong:diblong@postgres:5432/diblong?schema=public
+      JWT_ACCESS_SECRET: change-me-access-secret-min-32-chars-long-000000
+      JWT_REFRESH_SECRET: change-me-refresh-secret-min-32-chars-long-00000
+      WEB_ORIGIN: http://localhost:4200
+      PUBLIC_WEB_URL: http://localhost:4200
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: diblong
+      POSTGRES_PASSWORD: diblong
+      POSTGRES_DB: diblong
+    ports:
+      - '11433:5432'
+    volumes:
+      - pgdiblongdata:/var/lib/postgresql/data
+
+volumes:
+  pgdiblongdata: {}
