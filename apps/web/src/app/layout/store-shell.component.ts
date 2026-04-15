@@ -13,7 +13,7 @@ import { readLang, readPaths } from '../core/route-helpers';
       <header class="border-b border-white/5 bg-ink-950/70 backdrop-blur">
         <div class="dib-container flex items-center justify-between py-4">
           <a [routerLink]="['/', lang]" class="font-display text-2xl tracking-[0.2em] text-gold-300">
-            DIBLONG
+            DIGO
           </a>
           <nav class="hidden md:flex items-center gap-6 text-sm text-zinc-300">
             <a class="hover:text-gold-300" [routerLink]="['/', lang]">{{ ui.home }}</a>
@@ -41,7 +41,7 @@ import { readLang, readPaths } from '../core/route-helpers';
       <footer class="border-t border-white/5 py-10 text-sm text-zinc-500">
         <div class="dib-container grid gap-6 md:grid-cols-3">
           <div>
-            <div class="font-display text-lg text-gold-300">Diblong</div>
+            <div class="font-display text-lg text-gold-300">Digo</div>
             <p class="mt-2 max-w-xs">{{ ui.footer }}</p>
           </div>
           <div class="space-y-2">

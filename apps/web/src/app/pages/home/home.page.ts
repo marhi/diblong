@@ -27,7 +27,7 @@ type ProductCard = {
     <section class="relative overflow-hidden border-b border-white/5">
       <div class="dib-container py-20 md:py-28">
         <div class="max-w-3xl">
-          <p class="text-xs uppercase tracking-[0.35em] text-gold-400">Diblong</p>
+          <p class="text-xs uppercase tracking-[0.35em] text-gold-400">Digo</p>
           <h1 class="mt-4 font-display text-4xl leading-tight text-zinc-50 md:text-6xl">
             {{ heroTitle }}
           </h1>
@@ -85,7 +85,7 @@ type ProductCard = {
             <img *ngIf="cardImage(p)" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" [src]="cardImage(p)!" [alt]="p.translations[0]?.title" />
           </div>
           <div class="p-5">
-            <div class="text-xs uppercase tracking-[0.25em] text-zinc-500">Diblong</div>
+            <div class="text-xs uppercase tracking-[0.25em] text-zinc-500">Digo</div>
             <div class="mt-2 font-display text-xl text-zinc-100">{{ p.translations[0]?.title }}</div>
             <p class="mt-2 line-clamp-2 text-sm text-zinc-400">{{ p.translations[0]?.shortDescription }}</p>
             <div class="mt-4 text-sm text-gold-300">€ {{ p.price | number : '1.2-2' }}</div>
@@ -175,40 +175,40 @@ const HOME_COPY: Record<
   sl: {
     heroTitle: 'Intimna dobrobit, oblikovana z okusom.',
     heroBody:
-      'Diblong zdručuje zeliščno tradicijo in sodobno eleganco. Izbrana linija za zrelo, diskretno in premično izkušnjo.',
+      'Digo zdručuje zeliščno tradicijo in sodobno eleganco. Izbrana linija za zrelo, diskretno in premično izkušnjo.',
     heroCta: 'Razišči trgovino',
     heroSecondary: 'Zgodba znamke',
     featuredLabel: 'Izpostavljeno',
     featuredTitle: 'Izbrane reference',
     viewAll: 'Vse izdelke',
-    metaTitle: 'Diblong — premium intimna nega',
+    metaTitle: 'Digo — premium intimna nega',
     metaDescription:
-      'Večjezična spletna trgovina Diblong: zeliščni rituali nege, diskretna dostava in skrbna podpora.',
+      'Večjezična spletna trgovina Digo: zeliščni rituali nege, diskretna dostava in skrbna podpora.',
   },
   en: {
     heroTitle: 'Intimate wellness, composed with taste.',
     heroBody:
-      'Diblong bridges herbal tradition and modern elegance — a curated line for discreet, premium daily rituals.',
+      'Digo bridges herbal tradition and modern elegance — a curated line for discreet, premium daily rituals.',
     heroCta: 'Explore the shop',
     heroSecondary: 'Brand story',
     featuredLabel: 'Featured',
     featuredTitle: 'Signature selections',
     viewAll: 'View all',
-    metaTitle: 'Diblong — premium intimate care',
+    metaTitle: 'Digo — premium intimate care',
     metaDescription:
-      'Multilingual Diblong boutique: herbal rituals, discreet shipping, and attentive client care.',
+      'Multilingual Digo boutique: herbal rituals, discreet shipping, and attentive client care.',
   },
   hr: {
     heroTitle: 'Intimna dobrobit, oblikovana s okusom.',
     heroBody:
-      'Diblong spaja biljnu tradiciju i suvremenu elegancu — odabrana linija za diskretan, premium ritual.',
+      'Digo spaja biljnu tradiciju i suvremenu elegancu — odabrana linija za diskretan, premium ritual.',
     heroCta: 'Istraži trgovinu',
     heroSecondary: 'Priča brenda',
     featuredLabel: 'Istaknuto',
     featuredTitle: 'Odabrane reference',
     viewAll: 'Svi proizvodi',
-    metaTitle: 'Diblong — premium intimna njega',
+    metaTitle: 'Digo — premium intimna njega',
     metaDescription:
-      'Višejezična trgovina Diblong: biljni rituali, diskretna dostava i pažljiva podrška.',
+      'Višejezična trgovina Digo: biljni rituali, diskretna dostava i pažljiva podrška.',
   },
 };

@@ -78,7 +78,7 @@ export class CategoryPageComponent {
         const c = raw as CategoryPayload;
         this.data = c;
         this.seo.setPage({
-          title: c.metaTitle ?? `${c.title} | Diblong`,
+          title: c.metaTitle ?? `${c.title} | Digo`,
           description: c.metaDescription ?? undefined,
           canonicalPath: c.canonicalPath ?? `/${this.lang}/${this.paths.category}/${slug}`,
         });

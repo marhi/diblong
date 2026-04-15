@@ -80,18 +80,18 @@ const CART_UI: Record<Lang, { title: string; empty: string; checkout: string; me
     title: 'Košarica',
     empty: 'Košarica je prazna.',
     checkout: 'Na blagajno',
-    metaTitle: 'Košarica | Diblong',
+    metaTitle: 'Košarica | Digo',
   },
   en: {
     title: 'Cart',
     empty: 'Your cart is empty.',
     checkout: 'Checkout',
-    metaTitle: 'Cart | Diblong',
+    metaTitle: 'Cart | Digo',
   },
   hr: {
     title: 'Košarica',
     empty: 'Košarica je prazna.',
     checkout: 'Na blagajnu',
-    metaTitle: 'Košarica | Diblong',
+    metaTitle: 'Košarica | Digo',
   },
 };

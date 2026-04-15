@@ -90,18 +90,18 @@ const SEARCH_UI: Record<Lang, { title: string; placeholder: string; search: stri
     title: 'Iskanje',
     placeholder: 'Začnite tipkati…',
     search: 'Išči',
-    metaTitle: 'Iskanje | Diblong',
+    metaTitle: 'Iskanje | Digo',
   },
   en: {
     title: 'Search',
     placeholder: 'Start typing…',
     search: 'Search',
-    metaTitle: 'Search | Diblong',
+    metaTitle: 'Search | Digo',
   },
   hr: {
     title: 'Pretraga',
     placeholder: 'Počnite tipkati…',
     search: 'Traži',
-    metaTitle: 'Pretraga | Diblong',
+    metaTitle: 'Pretraga | Digo',
   },
 };

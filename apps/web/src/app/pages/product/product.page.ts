@@ -61,7 +61,7 @@ type ProductCard = {
           </div>
         </div>
         <div>
-          <p class="text-xs uppercase tracking-[0.35em] text-gold-400">Diblong</p>
+          <p class="text-xs uppercase tracking-[0.35em] text-gold-400">Digo</p>
           <h1 class="mt-3 font-display text-4xl text-zinc-50">{{ d.title }}</h1>
           <p class="mt-4 text-sm text-zinc-400">{{ d.shortDescription }}</p>
           <div class="mt-8 flex flex-wrap items-center gap-4">
@@ -120,7 +120,7 @@ export class ProductPageComponent {
         const d = this.data;
         const og = d.ogImageUrl ?? this.heroImage(d);
         this.seo.setPage({
-          title: d.metaTitle ?? `${d.title} | Diblong`,
+          title: d.metaTitle ?? `${d.title} | Digo`,
           description: d.metaDescription ?? d.shortDescription,
           canonicalPath: d.canonicalPath ?? `/${this.lang}/${this.paths.product}/${d.slug}`,
           ogImage: og ?? undefined,

@@ -38,20 +38,20 @@ const COPY: Record<Lang, { kicker: string; title: string; body: string; cta: str
     title: 'Hvala — naročilo je sprejeto',
     body: 'Potrditev je bila poslana na vaš e-naslov. O statusu vas obvestimo diskretno in zanesljivo.',
     cta: 'Nadaljuj z nakupovanjem',
-    metaTitle: 'Naročilo uspešno | Diblong',
+    metaTitle: 'Naročilo uspešno | Digo',
   },
   en: {
     kicker: 'Order',
     title: 'Thank you — order received',
     body: 'A confirmation has been sent to your email. We will update you discreetly as your order progresses.',
     cta: 'Continue shopping',
-    metaTitle: 'Order success | Diblong',
+    metaTitle: 'Order success | Digo',
   },
   hr: {
     kicker: 'Narudžba',
     title: 'Hvala — narudžba je zaprimljena',
     body: 'Potvrda je poslana na vašu e-poštu. O statusu ćemo vas obavijestiti diskretno i pouzdano.',
     cta: 'Nastavite kupovati',
-    metaTitle: 'Narudžba uspjela | Diblong',
+    metaTitle: 'Narudžba uspjela | Digo',
   },
 };

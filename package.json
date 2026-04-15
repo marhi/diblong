@@ -1,5 +1,5 @@
 {
-  "name": "diblong-shop",
+  "name": "digo-shop",
   "private": true,
   "workspaces": [
     "apps/api",

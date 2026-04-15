@@ -39,20 +39,20 @@ const ACCOUNT_UI: Record<Lang, { title: string; body: string; tokenHint: string;
     body: 'Zgodovina naročil in naslovi bodo povezani z JWT avtentikacijo v naslednji iteraciji.',
     tokenHint: 'Za administratorske tokove uporabite API dokumentacijo in vlogo ADMIN.',
     swagger: 'Odpri Swagger',
-    metaTitle: 'Račun | Diblong',
+    metaTitle: 'Račun | Digo',
   },
   en: {
     title: 'My account',
     body: 'Order history and addresses will be wired to JWT auth in the next iteration.',
     tokenHint: 'For admin flows use the API docs with the ADMIN role.',
     swagger: 'Open Swagger',
-    metaTitle: 'Account | Diblong',
+    metaTitle: 'Account | Digo',
   },
   hr: {
     title: 'Moj račun',
     body: 'Povijest narudžbi i adrese bit će povezane s JWT autentikacijom u sljedećoj iteraciji.',
     tokenHint: 'Za adminske tokove koristite API dokumentaciju s ulogom ADMIN.',
     swagger: 'Otvori Swagger',
-    metaTitle: 'Račun | Diblong',
+    metaTitle: 'Račun | Digo',
   },
 };

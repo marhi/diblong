@@ -38,20 +38,20 @@ const COPY: Record<Lang, { kicker: string; title: string; body: string; cta: str
     title: 'Naročilo ni bilo zaključeno',
     body: 'Prišlo je do težave pri potrditvi. Poskusite znova ali kontaktirajte podporo.',
     cta: 'Nazaj na blagajno',
-    metaTitle: 'Naročilo neuspešno | Diblong',
+    metaTitle: 'Naročilo neuspešno | Digo',
   },
   en: {
     kicker: 'Payment',
     title: 'Checkout could not be completed',
     body: 'Something went wrong while confirming your order. Please try again or contact support.',
     cta: 'Return to checkout',
-    metaTitle: 'Order failed | Diblong',
+    metaTitle: 'Order failed | Digo',
   },
   hr: {
     kicker: 'Plaćanje',
     title: 'Narudžba nije završena',
     body: 'Došlo je do problema pri potvrdi. Pokušajte ponovno ili kontaktirajte podršku.',
     cta: 'Natrag na blagajnu',
-    metaTitle: 'Narudžba neuspjela | Diblong',
+    metaTitle: 'Narudžba neuspjela | Digo',
   },
 };

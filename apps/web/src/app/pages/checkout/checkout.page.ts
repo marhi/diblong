@@ -131,7 +131,7 @@ const CHECKOUT_UI: Record<
     noCart: 'Ni aktivne košarice.',
     back: 'Nazaj v košarico',
     failed: 'Naročilo ni uspelo.',
-    metaTitle: 'Blagajna | Diblong',
+    metaTitle: 'Blagajna | Digo',
   },
   en: {
     title: 'Checkout',
@@ -145,7 +145,7 @@ const CHECKOUT_UI: Record<
     noCart: 'No active cart.',
     back: 'Back to cart',
     failed: 'Checkout failed.',
-    metaTitle: 'Checkout | Diblong',
+    metaTitle: 'Checkout | Digo',
   },
   hr: {
     title: 'Blagajna',
@@ -159,6 +159,6 @@ const CHECKOUT_UI: Record<
     noCart: 'Nema aktivne košarice.',
     back: 'Natrag u košaricu',
     failed: 'Narudžba nije uspjela.',
-    metaTitle: 'Blagajna | Diblong',
+    metaTitle: 'Blagajna | Digo',
   },
 };

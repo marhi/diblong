@@ -13,7 +13,7 @@ import { AdminAuthService } from './admin-auth.service';
       <header class="border-b border-white/5 bg-ink-900/80 backdrop-blur">
         <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
           <a routerLink="/admin/dashboard" class="font-display text-xl tracking-[0.25em] text-gold-300"
-            >DIBLONG ADMIN</a
+            >DIGO ADMIN</a
           >
           <div class="flex items-center gap-3 text-sm">
             <span *ngIf="email" class="hidden text-zinc-500 sm:inline">{{ email }}</span>

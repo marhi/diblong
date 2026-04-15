@@ -11,7 +11,7 @@ import { AdminAuthService } from '../admin-auth.service';
   template: `
     <div class="flex min-h-screen items-center justify-center bg-ink-950 px-4">
       <div class="w-full max-w-md rounded-2xl border border-white/10 bg-ink-900/80 p-8 shadow-glow">
-        <h1 class="text-center font-display text-2xl tracking-[0.2em] text-gold-300">DIBLONG</h1>
+        <h1 class="text-center font-display text-2xl tracking-[0.2em] text-gold-300">DIGO</h1>
         <p class="mt-2 text-center text-sm text-zinc-500">Admin sign in</p>
         <form class="mt-8 space-y-4" (ngSubmit)="submit()">
           <label class="block text-sm text-zinc-300">

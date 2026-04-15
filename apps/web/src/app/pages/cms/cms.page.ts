@@ -39,7 +39,7 @@ export class CmsPageComponent {
       this.page = p;
       if (!p) return;
       this.seo.setPage({
-        title: p.metaTitle ?? `${p.title} | Diblong`,
+        title: p.metaTitle ?? `${p.title} | Digo`,
         description: p.metaDescription ?? undefined,
         canonicalPath: p.canonicalPath ?? `/${this.lang}/${p.slug}`,
       });
